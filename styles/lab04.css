@@ -1,0 +1,92 @@
+/*
+
+filename: [lab04.css]
+
+author: [Henry Bennett]
+
+created: [24/03/2025]
+
+last modified: [20/03/2025 11:05am]
+
+description: [This is a css file for the lab04.html file.]
+
+*/
+
+/* set general basic styling */
+* { 
+    font-family: calibri, sans-serif; 
+    color: #2F4F4F;
+} 
+
+/* Sets the color of the h1 element */
+h1 {
+    color: purple;
+}
+
+/* Sets the color of the h2 element */
+h2 {
+    color: rgb(0,128,128);
+}
+
+/* Sets the color of the heading text */
+#smallerHeadings {
+    color: red;
+}
+
+/* Sets the color of the heading text */
+aside, footer {
+    font-style: italic; 
+} 
+
+/* Sets the style of h1-3 tag */
+h1, h2, h3 {
+    font-style: sans-serif;
+}
+
+/* Sets the border of the table */
+table {
+    border: 1px solid black; 
+}
+
+th, td{
+    border: 1px solid #000;
+}
+
+/* Aligns the image title to the center */
+#images {
+    text-align : center;
+}
+
+/* Sets the text in the special class as Orange */
+.special {
+    color: darkorange;
+    font-weight:bold;
+}
+
+/* Makes the button on the top of the page */
+nav a {
+    text-decoration: none;
+    padding:0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+
+nav a:hover{
+    border: 4px solid #070063;
+    color: aqua;
+}
+
+
+/* Makes the text in the table move to the right of their column */
+.months {
+    text-align: right;
+}
+
+/* Makes the bullet points on the unordered list square */
+ul {
+    list-style-type : square;
+}
+
+/* When hovering over the text with the mouse button the text will disappear */
+aside:hover {
+    display: none;
+}
